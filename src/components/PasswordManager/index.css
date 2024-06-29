@@ -1,0 +1,231 @@
+.app-bg-container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.password-bg-container {
+  width: 90%;
+}
+.app-logo {
+  width: 180px;
+  margin-top: 40px;
+}
+
+.password-manager-container {
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  min-height: 100vh;
+}
+.logo-img {
+  width: 80%;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.form {
+  background-color: #454f84;
+  width: 90%;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 500px;
+}
+.form-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.input-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  height: 50px;
+}
+.input-container input {
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 500;
+}
+.input-container img {
+  width: 40px;
+  border-right: 1px solid #c3caea;
+  margin: 10px;
+  padding-right: 10px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+.add-button {
+  width: 90px;
+  height: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0b69ff;
+}
+
+.bottom-section {
+  background-color: #5763a5;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  min-height: 50vh;
+  width: 100%;
+  padding-top: 20px;
+}
+.password-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.password-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.password-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.search-icon {
+  width: 30px;
+  margin-right: 10px;
+}
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 250px;
+  max-width: 300px;
+  width: 50%;
+}
+.search-input {
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-left: 1px solid #454f84;
+  padding-left: 5px;
+  width: 100%;
+}
+.line {
+  width: 90%;
+  margin-top: 15px;
+}
+.check-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.check-box-input {
+  height: 25px;
+
+  width: 25px;
+}
+.check-box-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.label-text {
+  padding-left: 5px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+}
+.items-list-container {
+  padding-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords {
+  width: 400px;
+  max-width: 500px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.span-count {
+  display: flex;
+  justify-content: center;
+  max-width: 50px;
+  border: 1px solid #f8fafc;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .password-manager-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form {
+    width: 50%;
+  }
+  .logo-img {
+    order: 1;
+    width: 50%;
+  }
+  .items-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .no-passwords {
+    width: 80%;
+    width: 650px;
+  }
+}
